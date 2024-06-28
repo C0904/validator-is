@@ -1,6 +1,6 @@
-Unified-Validator: Streamline Your Validation Process
+validator-is: Streamline Your Validation Process
 
-Unified-Validator is a powerful TypeScript/JavaScript library that bridges the gap between class-validator and Swagger documentation. It provides a set of decorators that simultaneously validate your data using class-validator and generate corresponding Swagger/OpenAPI documentation.
+validator-is is a powerful TypeScript library that bridges the gap between class-validator and Swagger documentation. It provides a set of decorators that simultaneously validate your data using class-validator and generate corresponding Swagger/OpenAPI documentation.
 
 Key Features:
 - Single decorator for both validation and API documentation
