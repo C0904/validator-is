@@ -1,0 +1,1 @@
+export type IsType = 'array' | 'boolean' | 'number' | 'numberString' | 'string';

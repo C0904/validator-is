@@ -1,0 +1,28 @@
+{
+  "name": "class-swagger-validator",
+  "version": "0.0.1",
+  "main": "dist/cjs/index.js",
+  "module": "dist/mjs/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/mjs/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "repository": "https://github.com/C0904/class-swagger-validator.git",
+  "author": "C0904 <cabinkid07@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup.sh"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.9",
+    "@nestjs/swagger": "^7.3.1",
+    "class-validator": "^0.14.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
