@@ -1,6 +1,14 @@
 {
-  "name": "class-swagger-validator",
+  "name": "validator-is",
   "version": "0.0.1",
+  "keywords": [
+    "validation",
+    "validator",
+    "swagger",
+    "decorator",
+    "nestJs",
+    "Nest.js"
+  ],
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +18,7 @@
       "require": "./dist/cjs/index.js"
     }
   },
-  "repository": "https://github.com/C0904/class-swagger-validator.git",
+  "repository": "https://github.com/C0904/validator-is.git",
   "author": "C0904 <cabinkid07@gmail.com>",
   "license": "MIT",
   "type": "module",
