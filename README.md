@@ -12,4 +12,4 @@ Key Features:
 
 Whether you're building a REST API or a full-stack application, Unified-Validator simplifies your development process by unifying data validation and API documentation in one step. Say goodbye to inconsistencies between your validation logic and API specs, and hello to a more efficient, error-free development experience.
 
-Compatible with NestJS and other popular Node.js frameworks. MIT Licensed.
+Compatible with NestJS frameworks. MIT Licensed.
